@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Teresa Huang</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/V1_content_layout_typography.css">
+	<style type="text/css">
+		img{
+			width: 279.99px;
+			height: 172px;
+		}
+	</style>
+</head>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131269487-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131269487-1');
+</script>
+
+<script>
+	function myFunction(){
+		var sece = document.getElementById("eng_about")
+		var secc = document.getElementById("chi_about")
+		if (sece.style.height == '1px'){
+			sece.style.height = 'auto'
+			sece.style.visibility = 'visible'
+			secc.style.height = '1px'
+			secc.style.visibility = 'hidden'
+		} else {
+			secc.style.height = 'auto'
+			secc.style.visibility = 'visible'
+			sece.style.height = '1px'
+			sece.style.visibility = 'hidden'
+		}
+	}
+</script>
+
+<body id="top">
+	<header class="container group">
+		<h1 class="logo">
+			<a href="index.html">TERESA <br> HUANG</a><br>
+			<span class="sub-logo">cognitive neuroscience; data visualization; UXD</span>
+		</h1>
+		<nav>
+			<h2>Nav</h2>
+			<a href="#About">/About</a> 
+			<a href="#Project">/Project</a>
+			<a href="#Blog">/Blog</a>
+			<button onclick="myFunction()"> ENG | 中文 </button>
+		</nav>
+		
+	</header>
+
+
+	<section id="About" class="container">
+		<h2>About</h2>
+		
+		<section id='eng_about' style="visibility: hidden; height: 1px">
+			<p>My name is Teresa Huang, graduate student of psychology, now focus on user experience design and data visualization.</p>	
+			<p>I'm a psychology scientific researcher by training. I hold a Bachelor degree in psychology and then a Master degree in <a href="https://en.wikipedia.org/wiki/Cognitive_neuroscience">cognitive neuroscience</a>, I did researches (about: <a href="http://rstb.royalsocietypublishing.org/content/364/1515/301.short">auditory learning</a> ; <a href="https://en.wikipedia.org/wiki/Speech_perception">speech perception</a>) in Beijing Normal University - <a href="http://brain.bnu.edu.cn/en/Home/">State Key Laboratory of Cognitive Neuroscience and Learning</a> adopt behavioral and <a href="https://en.wikipedia.org/wiki/Electroencephalography">electrophysiological techniques</a>. More information about me could check my <a href="assets/documents/huang_CV_2018.pdf">CV/Resume(PDF)</a>. </p>
+			<p>Contact me through <a href="mailto:teresa.huangt@outlook.com">teresa.huangt@outlook.com</a>, or communicate code in my <a href="https://github.com/teresa-huangt">Github account</a>.</p>
+		</section>
+		<section id='chi_about' style="visibility: visible; height: auto">
+			<p>
+				我的名字是Teresa Huang，心理学研究生，现在专注于用户体验设计和数据可视化。
+			</p>
+			<p>
+				我是一名受过训练的心理科学研究员。我拥有心理学学士学位，然后是<a href="https://en.wikipedia.org/wiki/Cognitive_neuroscience">认知神经科学</a>硕士学位，我在北京师范大学做了研究（关于：<a href="http://rstb.royalsocietypublishing.org/content/364/1515/301.short">听觉学习</a> ; <a href="https://en.wikipedia.org/wiki/Speech_perception">语言知觉</a>） - <a href="http://brain.bnu.edu.cn/en/Home/">认知神经科学和学习国家重点实验室</a>采用行为和<a href="https://en.wikipedia.org/wiki/Electroencephalography">电生理</a>技术。有关我的更多信息可以查看我的简历/简历（PDF）。
+			</p>
+			<p>
+				通过<a href="mailto:teresa.huangt@outlook.com">teresa.huangt@outlook.com</a>与我联系，或者在我的<a href="https://github.com/teresa-huangt">Github</a>帐户中传递代码。
+			</p>
+		</section>
+	</section>
+
+
+
+	<section id="Project" class="container">
+		<h2>Project</h2>
+		<section class="grid">
+			<section id="Proj2-1" class="col-1-3">
+				<img src="assets/images/web-home.jpg" alt="web-home">
+				<a href="V1_proj2-1.html">
+				# Web Design <br>My web</a>
+			</section><!--  
+			--><section id="Proj2-2" class="col-1-3">
+				<img src="assets/images/map-home.jpg">
+				<a href="assets/P5/sketch/sketch-meteorite.html">
+				# Data Visualization <br>Meteorites Landing</a>
+			</section><!--  
+			--><section id="Proj2-3" class="col-1-3">
+				<img src="assets/images/UXD-home.jpg">
+				<a href="V1_proj2-3.html">
+				# UXD Redesign <br>Wechat</a>
+			</section>
+		</section>
+
+		<section class="grid">
+			<section id="Proj1-1" class="col-1-3">
+				<img src="assets/images/ERP-tone-home.jpg" alt="ERP-tone-home">
+				<a href="V1_proj1-1.html">
+				# Cognitive Psychology <br>Speech perception</a>
+			</section>
+			<section id="Proj1-2" class="col-1-3">
+				<img src="assets/images/amusia-home.jpg">
+				<a href="V1_proj1-2.html">
+				# Cognitive Psychology <br>Amusia</a>
+			</section>
+		</section>
+
+	</section>
+
+
+
+	<section id="Blog" class="container">
+		<h2>Blog</h2>
+		<section>
+			<details>
+				<summary>#Note# Title </summary>
+				<!-- <img src="assets/images/test-position2.jpg"> -->
+				<p>Content</p>
+			</details>
+		</section>
+	</section>
+
+	<section class="back container group" >
+		<h3><a href="#top">Back to top</a></h3>
+	</section> 
+
+	<footer class="container group">
+		<section class="footer-logo">
+			<small id="copyright">©Teresa Huang</small><br>
+			<address>
+				<a href="mailto:teresa.huangt@outlook.com">teresa.huangt@outlook.com</a><br>
+				<a href="https://github.com/teresa-huangt">Github account</a>
+			</address>
+		</section>
+		<nav>
+			<h2>Nav</h2>
+			<a href="#About">/About</a>   
+			<a href="Project">/Project</a>   
+			<a href="Blog">/Blog</a>  
+		</nav>
+	</footer>
+
+</body>
+
+</html>
